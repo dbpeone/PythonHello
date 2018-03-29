@@ -11,6 +11,9 @@ def SayIt(myString):
 
 
 #main
-SayIt("Hello There!!")
+for x in xrange(5):
+  SayIt("Hello There!! " + str(x))
+
+
 
 
