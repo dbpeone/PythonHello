@@ -12,7 +12,7 @@ def SayIt(myString):
 
 #main
 for x in xrange(5):
-  SayIt("Hello There!! " + x)
+  SayIt("Hello There - It's fixed!! " + str(x))
 
 
 
